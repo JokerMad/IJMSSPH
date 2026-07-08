@@ -15,8 +15,7 @@ const JournalPage = () => {
             <Card className="mb-4">
               <Card.Body>
                 <h3 className="fw-bold text-blue font-size-21">
-                  International Journal of Interdisciplinary Studies and System
-                  Science
+                 International journal of Medical science studies and Public Health
                 </h3>
 
                 <Row className="mt-3">
@@ -56,11 +55,10 @@ const JournalPage = () => {
                       <strong>Director:</strong> Dr. Roshan Bhaladhare
                     </p>
                     <p>
-                      <strong>Abbreviated key title:</strong> Int. J.
-                      Interdiscip. Stud. Syst. Sci.
+                      <strong>Abbreviated key title:</strong> Int. J. Med. Sci. Stud. Public Health
                     </p>
                     <p>
-                      <strong>Publisher:</strong> academic sphere publication
+                      <strong>Publisher:</strong> Academic sphere publication
                     </p>
                     <p>
                       <strong>Periodicity:</strong> Continuous, One Volume per
