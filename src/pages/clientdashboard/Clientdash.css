@@ -1,0 +1,33 @@
+/* navbar */
+
+.jab_clientdash_nav {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 1010;
+}
+
+/* articletable */
+.jab_client_articletable:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.jab_table{
+ 
+  height: 74vh;
+  overflow-x: auto  !important;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.jab_table table {
+  min-width: 800px; 
+  border-collapse: collapse;
+}
+
+
+
+
+
+

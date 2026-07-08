@@ -1,0 +1,12 @@
+{
+    "VOLUMES": "volumes",
+    "ARTICLES": "articles",
+    "DOWNLOAD": "download",
+    "DOWNLOADUSERARTICLE": "downloadUserarticle",
+    "ARTICLEBYID": "article",
+    "CURRENTISSUE": "static/current-issue",
+    "SUBMITARTICLE": "mail/submit",
+    "CONTACTUS": "mail/contact",
+    "SUBSCRIBE": "subscribe/"
+  }
+  

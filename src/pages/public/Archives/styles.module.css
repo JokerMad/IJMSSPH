@@ -1,0 +1,74 @@
+.volumes_card {
+    box-shadow: var(--box-shadow);
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .volumes_card summary {
+    font-weight: 500;
+  }
+  .card_details {
+    color: var(--grey);
+    text-transform: capitalize;
+    padding: 0.5em 1.5em;
+  }
+  .grid_col {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2em;
+  }
+  
+  /*         breadcrumbs styles         */
+  .breadcrumbs_container {
+    display: flex;
+    gap: 4px;
+  }
+  .breadcrumbs {
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .active_breadcrumb {
+    color: var(--secondary-color);
+  }
+
+
+
+  /* archives */
+  .jab_acc_header  button {
+    background-color: transparent !important;
+    border-radius: 1px;
+    padding: 13px;
+  }
+
+  .jab_acc_header  button:focus {
+outline: 0;
+box-shadow: none;
+border-bottom: 1px solid black;
+    border-radius: 1px;
+
+  }
+
+
+.accordion-button{
+  background-color: transparent;
+}
+
+.jab_archive_ul li{
+  list-style: none !important;
+  
+}
+
+.jab_archive_ul li a{
+ text-decoration: none !important;
+ color: black !important;
+ font-weight: 100;
+  
+}
+
+.jab_archive_ul li a:hover{
+  text-decoration: underline !important;
+  color: black !important;
+  /* font-weight: 600; */
+   
+ }
+  

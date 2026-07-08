@@ -1,0 +1,49 @@
+
+  
+  .jab_home_section2_border {
+    border-left: 1px solid  #242424 !important;
+    height: 120px;
+  }
+  
+  .view-insights {
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .arrow-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #f47933;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+  }
+  
+  .arrow-circle:hover {
+    background-color: rgb(76, 75, 75);
+  }
+  
+  .jab_homepage_section3{
+    display: block;
+    margin: 0px auto;
+    width: 120px;
+    background-color: white;
+  }
+
+  .jab_homepage_section3_container{
+    background-color: #ffffff;
+    color: #f47933;
+  }
+
+  @media screen  and (max-width:540px){
+    .jab_homepage_section3{
+    
+      width: 70px;
+      
+    }
+    
+  }

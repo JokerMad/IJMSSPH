@@ -1,0 +1,107 @@
+/* Header1 css */
+
+.jab_navbar1_common_bgcolor {
+  background-color: white;
+  display: flex;
+  justify-content: end;
+  padding: 12px 20px;
+  /* padding-bottom: 5px; */
+  /* position: sticky ; */
+  /* top: 0; */
+  /* z-index: 1000; */
+}
+
+.jab_navbar1_common_bgcolor .jab_nav_btn {
+  background-color: #f47933 !important;
+  border-color: #f47933;
+  color: white;
+  width: 100px;
+}
+
+.jab_navbar1_common_bgcolor .jab_nav_btn1 {
+  color: #f47933 !important;
+  border-color: #f47933;
+  background-color: white;
+  width: 100px;
+}
+
+.jab_navbar1_common_bgcolor .jab_nav_btn1:hover {
+  color: #f47933 !important;
+  border-color: #f47933;
+  background-color: white;
+  font-weight: 600;
+}
+
+/* header2 */
+
+.jab_navbar2_common_bgcolor {
+  /* background-color: #f47933 !important; */
+  background-color: #f47933 !important;
+  color: white;
+  position: sticky !important;
+  top: 0px !important; /* Matches the `top` value set in your inline style */
+  z-index: 1010;
+  margin: 0;
+  padding: 0;
+}
+
+.jab_navbar2_common_bgcolor .jab_img_logo {
+  width: 120px;
+  margin-right: 20px;
+  position: relative;
+  bottom: 45px;
+  margin-bottom: -30px;
+}
+.jab_navbar2_common_bgcolor .jab_logo_name {
+  /* font-weight: bold; */
+  white-space: wrap;
+  color: white;
+}
+.jab_navbar2_common_bgcolor .jab_logo_name center {
+  text-align: center !important;
+}
+
+/* header3 */
+
+.jab_navbar3_common_bgcolor {
+  color: black;
+  position: sticky !important;
+  top: 57px ;
+  z-index: 998;
+}
+
+.jab_searchbar:focus {
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .jab_navbar2_common_bgcolor .jab_logo_name {
+    text-align: center;
+  }
+}
+/* @media screen and (max-width: 540px) {
+  .jab_navbar3_common_bgcolor {
+    top: 63px !important;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .jab_navbar3_common_bgcolor {
+    top: 96px !important;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  /* Your phone-specific styles here */
+  .jab_navbar3_common_bgcolor {
+    top: 180px
+  }
+}
+
+/* Tablets (601px to 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Your tablet-specific styles here */
+  .jab_navbar3_common_bgcolor {
+    top: 127px
+  }
+}
